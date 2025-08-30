@@ -12,7 +12,7 @@ class ListNode:
 class Solution:
     def mergeTwoLists(self, list1: Optional[ListNode], list2: Optional[ListNode]) -> Optional[ListNode]:
         # dummy node
-        dummy = ListNode(-1)
+        dummy = ListNode()
         cur = dummy
 
         # traverse two lists
