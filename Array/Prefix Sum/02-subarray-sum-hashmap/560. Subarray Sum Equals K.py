@@ -10,8 +10,7 @@ class Solution:
 
         for num in nums:
             pre_sum += num
-            if (pre_sum - k) in count:
-                res += count[pre_sum - k]
+            res += count[pre_sum - k]
             count[pre_sum] += 1
             print(pre_sum)
         print(count)
